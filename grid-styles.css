@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	line-height: 100px;
+}
+
+.temp-bg {
+	position: absolute;
+	z-index: -100;
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+@media (min-width: 1440px){
+/*_grid.scss:18*/
+.container {
+    max-width: 1300px;
+}}
+	
+
+div {
+	overflow: hidden!important;
+}
+
+
+
+
+ .color-wrapper, .color-wrapper a{
+	margin: 15px 0;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
